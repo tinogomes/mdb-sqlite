@@ -1,21 +1,21 @@
 # mdb-sqlite
-Automatically exported from code.google.com/p/mdb-sqlite
+Automatically exported from [code.google.com/p/mdb-sqlite](http://code.google.com/p/mdb-sqlite)
 
 ## Description
-Provides automated conversion of MS Access 2000 databases to SQLite on any platform, utilizing Jackcess and SQLite Java libraries. No native driver required.
+Provides automated conversion of [MS Access 2000](https://en.wikipedia.org/wiki/Microsoft_Access) databases to [SQLite](https://www.sqlite.org/) on any platform, utilizing [Jackcess](http://jackcess.sourceforge.net/) and [SQLite Java libraries](http://www.zentus.com/sqlitejdbc/). No native driver required.
 
-MDB-SQLite is used by Plausible Labs to read government-supplied Access databases.
+MDB-SQLite is used by [Plausible Labs](http://www.plausiblelabs.com/) to read government-supplied Access databases.
 
 ## Usage
 To compile, run:
 
-ant dist
+`$ ant dist`
 
-This will create a standalone jar in dist/mdb-sqlite.jar
+This will create a standalone jar in `dist/mdb-sqlite.jar`
 
 To convert a database file:
 
-java -jar dist/mdb-sqlite.jar source.mdb output.sqlite
+`$ java -jar dist/mdb-sqlite.jar source.mdb output.sqlite`
 
 ## Changes
 1.0.2 Release
